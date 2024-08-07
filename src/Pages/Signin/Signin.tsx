@@ -1,8 +1,8 @@
 
-const Signin = () => {
-  return (
-    <div>Signin</div>
-  )
-}
-
-export { Signin }
+const SignIn = () => {
+    return (
+      <div>Signin</div>
+    )
+  }
+  
+  export { SignIn }

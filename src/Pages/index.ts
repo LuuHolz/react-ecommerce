@@ -5,4 +5,4 @@ export * from './MyAccount/MyAccount';
 export * from './MyOrder/MyOrder';
 export * from './MyOrders/MyOrders';
 export * from './NotFound/NotFound';
-export * from './Signin/Signin';
+export * from './SignIn/SignIn'
