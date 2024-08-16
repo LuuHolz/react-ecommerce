@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { ShoppingContext } from './Context';
 
 const initialState = {
@@ -8,8 +9,7 @@ const initialState = {
 
 export const ShoppingProvider = ({ children }) => {
 
-    const [state, dispatch] = useState(second)
-
+    const [state, dispatch] = useState(second);
 
     return (
         <ShoppingContext.Provider value={{}}>
