@@ -1,2 +1,3 @@
 
-export * from './Navbar/Navbar';
+export * from './Navbar/AppNavbar';
+export * from './Card/Card';
