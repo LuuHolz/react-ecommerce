@@ -1,0 +1,22 @@
+@import './mixins.scss';
+
+.container-home-cards{
+
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    justify-items: center;
+    align-items: center;
+}
+
+.container-card{
+    border-color: red;
+
+    .image-card {
+        width: 25%;
+        margin: 0;
+    } 
+}
+
