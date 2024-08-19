@@ -1,29 +1,13 @@
-import { useEffect } from "react";
-import { AppNavbar, Card } from "../../Components"
-import { useProducts } from "../../Hooks/useProducts"
+import { AppNavbar } from "../../Components"
 
 
 const Home = () => {
-
-  const { isLoading, error, products, getProducts } = useProducts();
-
-  useEffect(() => {
-    getProducts()
-  
-  }, [])
   
 
   return (
-    <>
+    <div className="container-home">
       <AppNavbar/>
-
-      {
-        products.map((product, index) => (
-          <Card key={index} product={product} isLoading={isLoading}/>
-
-        ))
-      }
-    </>
+    </div>
   )
 }
 

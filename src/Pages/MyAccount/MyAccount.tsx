@@ -1,3 +1,4 @@
+import React from 'react'
 
 const MyAccount = () => {
   return (
@@ -5,4 +6,4 @@ const MyAccount = () => {
   )
 }
 
-export { MyAccount }
+export default MyAccount

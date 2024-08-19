@@ -1,14 +1,15 @@
 import { useRoutes, BrowserRouter } from 'react-router-dom';
-import { Home, MyAccount, MyOrder, MyOrders, NotFound, SignIn } from "../index"
+import { Home, NotFound, SignIn, Products } from '../index'
 import { ShoppingProvider } from '../../Context/index';
 import '../../Styles/App.scss';
 
 const AppRoutes = () => {
     let routes = useRoutes([
         { path: '/', element: <Home/> },
-        { path: '/my-account', element: <MyAccount/> },
-        { path: '/my-order', element: <MyOrder/> },
-        { path: '/my-orders', element: <MyOrders/> },
+        { path: '/productos', element: <Products/> },
+        // { path: '/my-account', element: <MyAccount/> },
+        // { path: '/my-order', element: <MyOrder/> },
+        // { path: '/my-orders', element: <Checkout/> },
         { path: '/*', element: <NotFound/> },
         { path: '/sign-in', element: <SignIn/> },
     ])
@@ -28,4 +29,4 @@ const App = () => {
   )
 }
 
-export default App
+export  { AppRoutes, App }

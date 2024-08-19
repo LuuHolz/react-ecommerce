@@ -1,3 +1,4 @@
+import React from 'react'
 
 const MyOrder = () => {
   return (
@@ -5,4 +6,4 @@ const MyOrder = () => {
   )
 }
 
-export { MyOrder }
+export default MyOrder
