@@ -19,6 +19,8 @@ const Products = () => {
 
       <AppNavbar/>
 
+      <p className="products-text-novedades">Novedades</p>
+
       <div className="container-home-cards">
         {
           products.map((product, index) => (
